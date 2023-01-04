@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Category;
+use App\Models\CategoryRecruitment;
 use App\Models\Post;
 use App\Models\Regulation;
 use Illuminate\Http\Request;
@@ -128,6 +129,9 @@ class HomeController extends Controller
 
     public function recruitment()
     {
-        return view('pages.front.recruitment');
+        $data = CategoryRecruitment::get();
+        return view('pages.front.recruitment', [
+            'data' => $data
+        ]);
     }
 }

@@ -6,6 +6,7 @@
             <a href="{{ route('categories.index') }}" class="list-group-item {{ (strpos(Route::currentRouteName(), 'categories') !== false) ? 'active' : '' }}">Master Data Categories</a>
             <a href="{{ route('regulations.index') }}" class="list-group-item {{ (strpos(Route::currentRouteName(), 'regulations') !== false) ? 'active' : '' }}">Master Data Regulation</a>
             <a href="{{ url("admin/recruitment") }}" class="list-group-item {{ (strpos(Route::currentRouteName(), 'regulations') !== false) ? 'active' : '' }}">Master Data Recruitment</a>
+            <a href="{{ url('admin/category-recruitment') }}" class="list-group-item"> Master Category Recruitment</a>
             <a href="{{ route('settings') }}" class="list-group-item {{ (Route::currentRouteName() == 'settings') ? 'active' : '' }}">Settings</a>
             <a href="{{ route('logout') }}" class="list-group-item">Logout</a>
         </ul>

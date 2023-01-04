@@ -62,6 +62,13 @@ Route::prefix('admin/recruitment')->group(function () {
     Route::get('/', [RecruitmentController::class, 'index']);
 });
 
+Route::prefix("admin/category-recruitment")->group(function () {
+    Route::get('/', [RecruitmentController::class, 'category']);
+    Route::get('/create', [RecruitmentController::class, 'categoryPage']);
+    Route::post('/store', [RecruitmentController::class, 'categoryStore']);
+    Route::get('/create', [RecruitmentController::class, 'categoryPage']);
+});
+
 Route::post('ckeditor/upload', 'PostController@ckeditor')->name('ckeditor.upload');
 
 Route::post('blog/comments/post/{id}', 'CommentController@store')->name('comments.store');

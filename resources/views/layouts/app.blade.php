@@ -23,6 +23,7 @@
     <link rel="shortcut icon" href="https://alatanindonesia.co.id/wp-content/uploads/2021/04/ICO.png" type="image/x-icon">
     <link rel="icon" href="https://alatanindonesia.co.id/wp-content/uploads/2021/04/ICO.png" type="image/x-icon">
     <meta name="msapplication-TileImage" content="https://alatanindonesia.co.id/wp-content/uploads/2021/04/ICO.png" />
+    {{-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> --}}
     <style>
         body{
             background: #f7f7ff !important;

@@ -4,7 +4,7 @@
 <div class="banner-section">
     <div class="main-slider-carousel owl-carousel owl-theme">
 
-        <div class="slide" data-bg-image="images/main-slider/IMG_7500-scaled.jpg">
+        <div class="slide" data-bg-image="images/main-slider/main-scaled-1-rev.jpg">
             <div class="auto-container w-100">
                 <div class="row clearfix">
 
@@ -25,7 +25,7 @@
             </div>
         </div>
 
-        <div class="slide" data-bg-image="images/main-slider/IMG_8089-scaled.jpg">
+        <div class="slide" data-bg-image="images/main-slider/main-scaled-2-rev.jpg">
             <div class="auto-container w-100">
                 <div class="row clearfix">
 
@@ -46,7 +46,7 @@
             </div>
         </div>
 
-        <div class="slide" data-bg-image="images/main-slider/20210426_101839-scaled.jpg">
+        <div class="slide" data-bg-image="images/main-slider/main-scaled-3-rev.jpg">
             <div class="auto-container w-100">
                 <div class="row clearfix">
 
